@@ -565,9 +565,18 @@ font-size: 26px;
 font-size: 10px;
 }
 
-.book {
-width: 50%;
+.book--latest {
+    width: 50%
 }
+
+.book {
+    width: 50%;
+}
+
+.books {
+    flex-wrap: wrap;
+}
+
 }
 
 /* Small phones, tablets, large smartphones */  
